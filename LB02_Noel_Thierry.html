@@ -4,7 +4,7 @@
     <meta charset="ISO-8859-1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Unbenannt-1.png">
 
     <title>Open Air Waid</title>
 
@@ -14,68 +14,95 @@
 <body>
 <header>
     <div id="brand">
-        <img src="./WebstormProjects/Bilder LB02/logo_rgb_thierry_biland Kopie.png" alt="Wappen von Eglisau" />
+        <img src="Logo_RGB_500px.png" alt="Waid Logo" />
         <h1>
-            Eglisau
-            <small>Ein StÃ¤dtli zum Verweilen</small>
+            Open Air Waid
+            <small>Jeder ist willkommen</small>
         </h1>
     </div>
     <nav>
         <ul>
             <li>
-                <a href="#">Arbeiten</a>
+                <a href="#Musiker">Musiker</a>
             </li>
             <li>
-                <a href="#">Wohnen</a>
+                <a href="#Zeiten">Zeiten</a>
             </li>
             <li>
-                <a href="erleben.html" class="active">Erleben</a>
+                <a href="#Ort" class="active">Ort</a>
             </li>
         </ul>
     </nav>
 </header>
 <main>
-    <section id="arbeiten" class="highlight left-to-right">
-        <img alt="Arbeiten" src="./bilder/arbeit.jpg" />
+    <section id="Musiker" class="highlight left-to-right">
+        <img alt="Plakat" src="plakat_thierry_biland.png" />
         <div>
-            <h2>Arbeiten</h2>
+            <h2>Musiker</h2>
             <p>
-                In Eglisau gibt es verschiedene, kleine Betriebe. Von einem
-                SanitÃ¤runternehmen bis zur KaffeerÃ¶sterei.
+                Die Musiker sind ein Mix aus allen Musik Arten und es bietet viele verschiedene Zeilgruppen an.
             </p>
-            <p>
-                Zudem ist Eglisau an die StÃ¤dte Schaffhausen, Winterthur und ZÃ¼rich
-                im Halbstundentakt angebunden.
+                <p> Dabei sind:</p>
+                <p>Foo Fighters (Freitag)</p>
+                <p>AC/DC (Samstag)</p>
+                <p>Metallica (Sonntag)</p>
+                <p>Rammstein (Sonntag)</p>
+
             </p>
         </div>
     </section>
 
-    <section id="erleben" class="highlight right-to-left">
-        <img alt="Erleben" src="./bilder/erleben.jpg" />
+    <section id="Zeiten" class="highlight right-to-left">
+
         <div>
-            <h2>Erleben</h2>
-            <p>
-                Erholung, AbkÃ¼hlung und leckeres Essen sind nur ein paar der Dinge,
-                welche Eglisau zu bieten hat.
-            </p>
-            <p>
-                Es gibt verschiedene Wanderwege durch die WÃ¤lder und Rebberge dem
-                Rheinentlang. Der Gasthof Hirschen bietet zudem eine ausgezeichnete
-                Schweizer KÃ¼che an.
-            </p>
+            <h2>Zeiten</h2>
+
+            <p>Freitag 16 - 22 Uhr </p>
+            <p>Samstag 18 - 24 Uhr</p>
+            <p>Sonntag 16 - 22 Uhr</p>
+
         </div>
     </section>
 
-    <section id="wohnen" class="highlight left-to-right">
-        <img alt="Wohnen" src="./bilder/wohnen.jpg" />
+    <section id="Ort" class="highlight left-to-right">
         <div>
-            <h2>Wohnen</h2>
+            <h2>Ort</h2>
             <p>
-                In Eglisau gibt es fÃ¼r jeden ein passendes PlÃ¤tzchen. Ob eine
-                Wohnung in einem schÃ¶n renovierten Altbau im Dorfkern oder ein
-                Neubau etwas ausserhalb, gibt es viele MÃ¶glichkeiten in Eglisau zu
-                Wohnen.
+                Helmetschlosstrasse an der Waid (es gibt keine Parkplaetze)
             </p>
+
+            <div class="slideshow-container">
+
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img_1.png" alt="aussicht" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img_2.png" alt="aussicht" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img_4.png" alt="aussicht" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
         </div>
     </section>
 

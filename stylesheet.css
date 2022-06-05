@@ -1,7 +1,7 @@
 html {
     height: 100%;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-family: "Helvetica Neue";
 }
 
 body {
@@ -24,12 +24,12 @@ main>* {
     }
 }
 
-/* Seitenkopf */
+
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 12rem;
+    height: 14rem;
     background-color: #BBBBBB;
 }
 
@@ -50,7 +50,10 @@ header nav a:hover {
 header nav a.active {
     font-weight: bold;
 }
+p{
+    font-size: 22px;
 
+}
 #brand {
     display: flex;
     align-items: center;
@@ -72,13 +75,13 @@ header nav a.active {
     font-size: 1.3rem;
 }
 
-/* Seiteninhalt */
+
 main {
     flex-grow: 1;
     padding: 0;
 }
 
-/* Seitenfuss */
+
 footer {
     display: flex;
     align-items: center;
@@ -100,7 +103,7 @@ footer nav li:first-child a {
     border: none;
 }
 
-/* Sektionen */
+
 .highlight {
     display: flex;
     justify-content: space-between;
@@ -112,25 +115,17 @@ footer nav li:first-child a {
 }
 
 .highlight.left-to-right img {
-    margin-left: 1rem;
+    margin-left: 2rem;
     float: right;
-}
-
-.highlight.right-to-left img {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .highlight img {
-    filter: grayscale();
-    opacity: 0.6;
-    height: 15rem;
-    transition: 1s;
+    opacity: 1;
+    height: 30rem;
+
 }
 
-.highlight:hover img {
-    filter: none;
-    opacity: 1;
-}
 
 .spotlight {
     display: flex;
@@ -159,7 +154,7 @@ footer nav li:first-child a {
     }
 }
 
-/* Elemente */
+
 a {
     text-decoration: none;
     color: #000;
@@ -175,10 +170,12 @@ h1 small{
     padding-top: 0.5rem;
 }
 main .spotlight{
-    background-image: url(karte.png);
+    background-image: url(img.png);
 }
 table{
-    border-color: #AAA;
+    border-color: #BBB;
     border: 1px solid;
     border-collapse: collapse;
     padding: 0.5rem;
+* {box-sizing:border-box}
+
