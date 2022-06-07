@@ -161,7 +161,7 @@ h1 small{
     padding-top: 0.5rem;
 }
 main .spotlight{
-    background-image: url(img.png);
+    background-image: url(img.png)
 }
 table{
     border-color: #BBB;
@@ -171,8 +171,9 @@ table{
 * {box-sizing:border-box}
 
 mySlides{
-    align-content: center;
+    background-position: bottom;
 }
+
 
 
 
