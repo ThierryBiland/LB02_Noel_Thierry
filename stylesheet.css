@@ -49,6 +49,7 @@ p{
     font-size: 22px;
 
 }
+
 #brand {
     display: flex;
     align-items: center;
@@ -57,6 +58,7 @@ p{
 
 #brand img {
     height: 6rem;
+    margin: 20px;
 }
 
 
@@ -64,6 +66,7 @@ p{
     display: block;
     font-weight: normal;
     font-size: 1.3rem;
+
 }
 
 
@@ -119,11 +122,6 @@ footer nav li:first-child a {
 
 
 
-.spotlight h2 {
-    padding: 0;
-    margin: 0;
-}
-
 
 @media screen and (max-width: 50rem) {
     #spotlight div {
@@ -145,11 +143,18 @@ nav ul {
 }
 h1 small{
     padding-top: 0.5rem;
+
 }
 
 div{
     float: bottom;
     margin-left: 0px;
+
+audio{
+    width: 100%;
+
+}
+
 
 
 
