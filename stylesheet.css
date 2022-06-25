@@ -118,26 +118,12 @@ footer nav li:first-child a {
 }
 
 
-.spotlight {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    overflow: auto;
-    height: 30rem;
-    background-size: cover;
-    background-position: 50% 50%;
-}
 
 .spotlight h2 {
     padding: 0;
     margin: 0;
 }
 
-.spotlight div {
-    background-color: rgba(255, 255, 255, 0.5);
-    max-width: 50%;
-    padding: 1rem;
-}
 
 @media screen and (max-width: 50rem) {
     #spotlight div {
@@ -161,12 +147,12 @@ h1 small{
     padding-top: 0.5rem;
 }
 
-table{
-    border-color: #BBB;
-    border: 1px solid;
-    border-collapse: collapse;
-    padding: 0.5rem;
-* {box-sizing:border-box}
+div{
+    float: bottom;
+    margin-left: 0px;
+}
+
+
 
 
 
