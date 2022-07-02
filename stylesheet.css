@@ -50,6 +50,8 @@ p{
 
 }
 
+
+
 #brand {
     display: flex;
     align-items: center;
@@ -74,6 +76,7 @@ main {
     flex-grow: 1;
     padding: 0;
 }
+
 
 
 footer {
@@ -149,6 +152,14 @@ h1 small{
 div{
     float: bottom;
     margin-left: 0px;
+
+div.carousel:hover{
+
+    opacity: 50%;
+}
+
+
+
 
 audio{
     width: 100%;
