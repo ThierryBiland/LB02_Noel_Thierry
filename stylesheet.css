@@ -153,9 +153,8 @@ div{
     float: bottom;
     margin-left: 0px;
 
-div.carousel:hover{
-
-    opacity: 50%;
+div.carousel:-moz-full-screen{
+    
 }
 
 
